@@ -1,0 +1,108 @@
+.img-main {
+    width: 100%;
+}
+
+.slide {
+    /* margin-top: 50px; */
+    width: 80%;
+    height: 50%;
+    color: #fff;
+    line-height: 160px;
+    text-align: center;
+    background: #364d79;
+}
+
+.img-slide {
+    padding: 20px 7%;
+    background: #f0f7fd;
+    border-top: 1px solid #9cddf4;
+}
+
+.name-tour-detail {
+    z-index: 4;
+    position: relative;
+}
+
+.name-tour-detail h1 {
+    color: #FFF;
+    font-size: 36px;
+    line-height: 46px;
+    font-weight: 700;
+    margin-bottom: 0px;
+    position: relative;
+    bottom: 100px;
+    left: 220px;
+    white-space: nowrap;
+}
+
+/* .img-thumbnail {
+} */
+
+.img-slide-wrap {
+    width: 20%;
+    padding: 0 5px;
+    margin-bottom: 10px;
+}
+
+.des-tour {
+    background: #fff;
+    padding: 10px;
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+}
+
+.info {
+    padding-bottom: 20px;
+}
+
+.info-tour-des {
+    padding-bottom: 20px;
+}
+
+.relation-tour {
+    padding: 20px 0px;
+    border-top: #b9b9b9 1px solid;
+}
+
+.name-tour-info {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 40px;
+    color: #232323;
+}
+
+.star-vote {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 26px;
+    color: #232323;
+    margin-right: 5px;
+}
+
+.star-color {
+    color: #FFB21D;
+    margin-right: 5px;
+
+}
+
+.review {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+    margin-right: 3px;
+    margin-left: 3px;
+
+}
+
+
+.title-option {
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 36px;
+    color: #232323;
+    margin-bottom: 10px;
+}

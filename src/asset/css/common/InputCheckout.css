@@ -1,0 +1,15 @@
+.label-input {
+    margin-bottom: 10px;
+}
+
+.required-dot {
+    color: red;
+    font-size: 700;
+}
+
+.label-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+}

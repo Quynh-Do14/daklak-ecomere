@@ -1,0 +1,27 @@
+.footer {
+    background-color: #c5d8fd;
+    padding: 30px 50px;
+}
+
+.title-footer {
+    color: #232323;
+    font-family: dm sans, Sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 26px;
+}
+
+.img-footer {
+    width: 40px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.li-img {
+    list-style: none;
+}
+
+.col-footer {
+    display: flex;
+    justify-content: center;
+}
