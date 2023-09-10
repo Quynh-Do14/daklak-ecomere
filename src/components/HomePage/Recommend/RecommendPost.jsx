@@ -93,7 +93,7 @@ const RecommendPost = () => {
                         {/* <ul ref={scrollRef} className="ul-list"  > */}
                         {dataTour.map((item, index) => (
                             // <li className="li-list" key={index}>
-                            <Col span={6} className="col-list li-list" key={index}>
+                            <Col sm={24} md={12} lg={8} xl={6} className="col-list li-list" key={index}>
 
                                 <div className="border-tour">
                                     <img className='img-tour' src={item.img} />

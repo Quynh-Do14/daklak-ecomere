@@ -4,14 +4,13 @@ import { Button, Col, DatePicker, Input, Row } from 'antd'
 import '../../asset/css/components/Tour/ListTour.css'
 import RecommendFestival from '../HomePage/Recommend/RecommendFestival'
 import SearchBar from '../common/SearchBar'
+import BannerCommon from '../common/Banner'
 
 const ListFestival = () => {
     return (
         <>
             <Header />
-            <Row className='row-img'>
-                <img src='https://modmixmap.wpengine.com/wp-content/uploads/2022/06/bannermix-min.png' />
-            </Row>
+            <BannerCommon />
             <SearchBar />
             <Row className='row-title' justify={"center"} wrap={false}>
                 <div className='title'>

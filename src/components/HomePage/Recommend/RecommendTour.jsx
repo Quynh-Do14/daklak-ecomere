@@ -74,7 +74,7 @@ const RecommendTour = () => {
         <>
             <Row className='row-list' gutter={[30, 30]} justify={"start"} wrap={true}>
                 {dataTour.map((item, index) => (
-                    <Col span={6} className="col-list" key={index}>
+                    <Col sm={24} md={12} lg={8} xl={6} className="col-list" key={index}>
                         <div className="border-tour">
                             <img className='img-tour' src={item.img} />
                             <div className="info-tour">

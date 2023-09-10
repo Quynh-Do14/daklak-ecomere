@@ -5,9 +5,9 @@ import { Row } from 'antd'
 const BannerCommon = () => {
     return (
         <div>
-            <Row className='row-img'>
-                <img className='img-banner' src='https://modmixmap.wpengine.com/wp-content/uploads/2022/06/bannermix-min.png' />
-            </Row>
+            <div className='iiv-img'>
+                <img className='img-banner' alt='' src='https://modmixmap.wpengine.com/wp-content/uploads/2022/06/bannermix-min.png' />
+            </div>
         </div>
     )
 }

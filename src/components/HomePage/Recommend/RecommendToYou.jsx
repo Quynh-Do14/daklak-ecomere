@@ -41,7 +41,7 @@ const RecommendToYou = () => {
                 </Row>
                 <Row className='row-list' gutter={[30, 30]} justify={"center"} wrap={true}>
                     {dataPost.map((item, index) => (
-                        <Col span={8} className="col-list" key={index}>
+                        <Col  sm={24} md={24} lg={12} xl={8}className="col-list" key={index}>
                             <div>
                                 <img className='img-post' src={item.img} />
                                 <div className='des-post'>

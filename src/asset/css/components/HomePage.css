@@ -12,6 +12,7 @@
 
 .img-banner {
     width: 100%;
+    
 }
 
 .des-post {
@@ -69,7 +70,7 @@
 }
 
 .row-list {
-    padding: 10px 17% 50px;
+    padding: 10px 120px 50px;
 }
 
 
@@ -294,3 +295,9 @@
     text-transform: uppercase;
     font-family: "Poppins", sans-serif !important;
 }
+
+@media screen and (min-width: 1600px) {
+    .row-list {
+        padding: 10px 200px 50px;
+    }
+  }
